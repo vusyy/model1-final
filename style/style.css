@@ -1,0 +1,17 @@
+img {
+    width: 112px;
+    height: 66px;
+}
+
+.format-info {
+    display: flex;
+}
+
+.start {
+    background-color: #9DC9C8;
+}
+
+footer {
+    background: #000;
+    height: 390px;
+}
