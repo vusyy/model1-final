@@ -1,0 +1,57 @@
+.card {
+    width: 791px;
+height: 451px;
+flex-shrink: 0;
+    border-radius: 30px;
+background: #FFF;
+box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+padding: 46px;
+}
+.card2 {
+    display: flex;
+
+}
+.card2-1 {
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+
+.card2-2-1 {
+    width: 353px;
+height: 59px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto Slab;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; 
+} 
+.fb{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 32px;
+height: 31px;
+flex-shrink: 0;
+}
+h1{
+    width: 987px;
+height: 93px;
+flex-shrink: 0;
+color: #000;
+font-family: 'Roboto Slab', serif;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; 
+}
+.card p {
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+}
