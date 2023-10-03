@@ -1,8 +1,111 @@
-img {
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+
+}
+
+.icon {
     width: 112px;
     height: 66px;
 }
 
+
+
+.what-we-learn {
+        margin-top: 417px;
+        color: #000;
+        font-family: Roboto Slab;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 101.385%; 
+        padding-left: 121px;
+       }
+       .list ul{
+        color: #000;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 150%; 
+        width: 662px;
+        height: 374px;
+        padding-top: 21px;
+        padding-left: 138px;
+}
+
+.stats {
+    width: 100%;
+    background-color: #EFEFEF;
+    padding-left: 125px;
+    padding-bottom: 110px;
+    padding-top: 100px;
+}
+
+.card {
+    width: 791px;
+height: 350px;
+    flex-shrink: 0;
+    border-radius: 30px;
+background: #FFF;
+box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+padding: 46px;
+}
+.stats-img {
+    display: flex;
+    padding-top: 50px;
+
+}
+.card2-1 {
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+
+.card2-2 {
+    padding: 35px;
+}
+
+.card2-2-1 {
+    width: 353px;
+height: 59px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto Slab;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; 
+} 
+.fb{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 32px;
+height: 31px;
+flex-shrink: 0;
+}
+
+.card p {
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+}
+
+h2{
+width: 987px;
+height: 93px;
+flex-shrink: 0;
+color: #000;
+font-family: 'Roboto Slab', serif;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%;
+}
 .format-info {
     display: flex;
 }
@@ -14,4 +117,38 @@ img {
 footer {
     background: #000;
     height: 390px;
+
+
+}
+
+
+
+@media only screen and (max-width: 834px) {
+    h2 {
+        font-size: 32px;
+    }
+    .card {
+        width: 458.121px;
+        height: 261.204px;
+        flex-shrink: 0;
+        border-radius: 17.375px;
+        background: #FFF;
+        box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
+        padding: 73px;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .card2-2-1 {
+        font-size: 17px;
+    }
+    .card2-1{
+        width: 110.042px;
+        height: 97.879px;
+    }
+    .fb {
+        width: 18.533px;
+        height: 17.954px;
+        
+    }
 }
