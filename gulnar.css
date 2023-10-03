@@ -6,7 +6,7 @@ h2{
     font-family: 'Roboto Slab', serif;
 }
 .format h2{
-    color: #000;
+    color: black;
     font-family: Roboto Slab;
     font-size: 55px;
     font-weight: 700;
@@ -28,11 +28,13 @@ padding-left: 122px;
     font-weight: 700;
     line-height: 130%; 
 }
-.format-card .card-text{
+.card-text{
     color: #000;
     font-size: 18px;
     font-weight: 400;
+    width: 270px;
 }
+
 .container{
  padding-inline: 122 px;
 }
@@ -40,7 +42,7 @@ padding-left: 122px;
     width: 270px;
 }
 .sto h2{
-    margin-top: 417px;
+ margin-top: 417px;
  color: #000;
  font-family: Roboto Slab;
  font-size: 55px;
@@ -58,3 +60,32 @@ padding-left: 122px;
  padding-top: 21px;
  padding-left: 138px;
 }
+@media only screen and (max-width: 834px) {
+    .format h2 , .sto h2 {
+   font-size: 32px;
+    }
+    .format-card h3{
+    font-size: 15px;
+    } 
+    .card-text{
+        font-size: 11px;
+    }
+    .list ul{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .format h2 , .sto h2 {
+        font-size: 26px;
+        padding:0px;
+  }
+  .format-card h3{
+    font-size: 12px;
+    } 
+    .card-text{
+        font-size: 10px;
+    }
+    .list ul{
+        font-size: 5px;
+    } 
+  }  
