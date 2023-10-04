@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
+    padding: 0;
+
 }
 
 body {
     background-color: #fff;
-
+    width: 100%;
+    height: 100vh;
 }
 
 .icon {
@@ -12,30 +19,32 @@ body {
     height: 66px;
 }
 
+.format-info {
+    display: flex;
+}
 
 
-.what-we-learn {
-        margin-top: 417px;
+.what-we-learn h2 {
+    color: #000;
+    font-family: 'Roboto Slab';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; 
+
+}
+
+.list ul{
+    list-style: none;
         color: #000;
-        font-family: Roboto Slab;
-        font-size: 55px;
-        font-weight: 700;
-        line-height: 101.385%; 
-        padding-left: 121px;
-       }
-       .list ul{
-        color: #000;
-        font-size: 24px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-style: normal;
         font-weight: 400;
-        line-height: 150%; 
-        width: 662px;
-        height: 374px;
-        padding-top: 21px;
-        padding-left: 138px;
+        line-height: 150%;
 }
 
 .stats {
-    width: 100%;
     background-color: #EFEFEF;
     padding-left: 125px;
     padding-bottom: 110px;
@@ -44,12 +53,12 @@ body {
 
 .card {
     width: 791px;
-height: 350px;
+    height: 350px;
     flex-shrink: 0;
     border-radius: 30px;
-background: #FFF;
-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
-padding: 46px;
+    background: #FFF;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 46px;
 }
 .stats-img {
     display: flex;
@@ -57,7 +66,7 @@ padding: 46px;
 
 }
 .card2-1 {
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -70,56 +79,146 @@ line-height: 150%;
 
 .card2-2-1 {
     width: 353px;
-height: 59px;
-flex-shrink: 0;
-color: #000;
-font-family: Roboto Slab;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%; 
+    height: 59px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Roboto Slab';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; 
 } 
 .fb{
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     width: 32px;
-height: 31px;
-flex-shrink: 0;
+    height: 31px;
+    flex-shrink: 0;
 }
 
 .card p {
     color: #000;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 30px */
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
 }
 
-h2{
-width: 987px;
-height: 93px;
-flex-shrink: 0;
-color: #000;
-font-family: 'Roboto Slab', serif;
-font-size: 55px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%;
+h2 {
+
+    height: 93px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
 }
-.format-info {
-    display: flex;
-}
+
+
 
 .start {
+    box-sizing: border-box;
     background-color: #9DC9C8;
+    padding-top: 180px;
+    padding-left: 122px;
+    /* padding-bottom: 55px;  */
+    height: 780px;
+}
+
+.price-name {
+    color: #000;
+    font-family: 'Roboto';
+    margin-top: 20px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 101.385%;
+    
+}
+
+.price {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%; 
+}
+
+.start-info {
+    display: flex;
+    margin-top: 75px;
+}
+.start-info1 {
+    margin-right: 70px;
+}
+
+#head {
+
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+    margin-bottom: 9px;
+}
+
+#info {
+    width: 294px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
 }
 
 footer {
+    box-sizing: border-box;
     background: #000;
     height: 390px;
-
+    padding-left: 120px;
+    padding-top: 50px;
 
 }
+
+.wrapper {
+    display: flex;
+
+    
+}
+
+.icon {
+    display: block;
+}
+.social p {
+    color: white;
+}
+
+.connection {
+    color: white;
+}
+
+.connection img {
+    margin-right: 20px;
+    width: 27px;
+    height: 27px;
+}
+
+.connection p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+}
+
+
+
 
 
 
