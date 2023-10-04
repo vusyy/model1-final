@@ -51,6 +51,9 @@ body {
     padding-top: 100px;
 }
 
+.testing {
+    margin-bottom: 75px;
+}
 .card {
     width: 791px;
     height: 350px;
@@ -60,11 +63,14 @@ body {
     box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
     padding: 46px;
 }
+
+
+
 .stats-img {
     display: flex;
     padding-top: 50px;
-
 }
+
 .card2-1 {
 font-family: 'Roboto';
 font-size: 20px;
@@ -88,7 +94,8 @@ line-height: 150%;
     font-weight: 700;
     line-height: 101.385%; 
 } 
-.fb{
+
+.fb {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     width: 32px;
     height: 31px;
@@ -105,8 +112,7 @@ line-height: 150%;
 }
 
 h2 {
-
-    height: 93px;
+    /* height: 93px; */
     flex-shrink: 0;
     color: #000;
     font-family: 'Roboto Slab', serif;
@@ -130,7 +136,7 @@ h2 {
 .price-name {
     color: #000;
     font-family: 'Roboto';
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: 25px;
     font-style: normal;
     font-weight: 300;
@@ -151,12 +157,12 @@ h2 {
     display: flex;
     margin-top: 75px;
 }
+
 .start-info1 {
     margin-right: 70px;
 }
 
 #head {
-
     color: #000;
     font-family: 'Roboto';
     font-size: 25px;
@@ -180,23 +186,48 @@ footer {
     box-sizing: border-box;
     background: #000;
     height: 390px;
-    padding-left: 120px;
     padding-top: 50px;
 
 }
 
 .wrapper {
     display: flex;
-
-    
+    justify-content: space-between;
+    padding-left: 7.62rem;
+    padding-right: 9.13rem;
 }
 
 .icon {
     display: block;
 }
+
 .social p {
-    color: white;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+    padding-top: 160px;
 }
+
+.fotka {
+    width: 34px;
+    height: 34px;
+    padding-right: 10px;
+    padding-top: 35px;
+}
+
+.fotka2 {
+    width: 27px;
+    height: 27px;
+}
+
+.fotka3 {
+    width: 27px;
+    height: 18px;
+}
+
 
 .connection {
     color: white;
@@ -210,44 +241,51 @@ footer {
 
 .connection p {
     color: #FFF;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 101.385%;
 }
 
+.test {
+    margin-bottom: 17px;
+}
 
+@media (max-width: 834px) {
+    body {
 
-
-
-
-@media only screen and (max-width: 834px) {
-    h2 {
+    }
+    .start {
+        padding-top: 100px;
+        padding-left: 70px;
+        height: 451px;
+    }
+    .start h2 {
         font-size: 32px;
+        font-weight: 700;
     }
-    .card {
-        width: 458.121px;
-        height: 261.204px;
-        flex-shrink: 0;
-        border-radius: 17.375px;
-        background: #FFF;
-        box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
-        padding: 73px;
+    .price-name {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 30px;
     }
-    .card p{
-        font-size: 12px;
+    .price {
+       font-size: 46px;
+
     }
-    .card2-2-1 {
-        font-size: 17px;
+    .start-info {
+        margin-top: 50px;
     }
-    .card2-1{
-        width: 110.042px;
-        height: 97.879px;
+    #head {
+        font-size: 14px;
+        margin-bottom: 9px;
     }
-    .fb {
-        width: 18.533px;
-        height: 17.954px;
-        
+
+    #info {
+        font-size: 10px;
     }
+
+    
+
 }
