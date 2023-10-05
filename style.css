@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+}
+
+h1,h2{
+    font-family: Roboto Slab;
+}
+.container{
+    margin-inline: 100px;
+}
+img{
+    width: 100%;
+}
+.logo{
+    width: 112px;
+    height: 60px;
+    margin-bottom: 97px;
+    margin-top:22px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding-right: 25px;
+}
+
+li img{
+    width: 22px;
+    height: 21px;
+    margin-right: 3px;
+}
+
+.introduction-mainpart{
+    display: flex;
+    justify-content: space-between;
+    margin-top:29px;
+}
+/* .introduction-mainpart-text{
+    width: 100%;
+} */
+.introduction-mainpart-text p {
+    max-width: 414px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.introduction-mainpart-text h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 101.385%;
+}
+.introduction-image{
+    max-width: 304px;
+    height: 356px;
+}
+
+
+.introduction-card{
+    max-width: 483.635px;
+    min-height: 200px;
+    border-radius: 5px;
+    background: #1E4681;
+    padding: 19px 26px;
+    margin:auto;
+    margin-top:67px;
+}
+.introduction-card-name{
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    margin-top: 5px;
+}
+.introduction-card-text{
+    color: #FFF;
+    font-family: Roboto Slab;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 130%;
+}
+.introduction-image{
+    width: 304px;
+}
+
+
+.information-course{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top:173px;
+}
+.information-course-image{
+    max-width:367px ;
+}
+.information-course-text h2{
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 101.385%;
+    margin-bottom: 32px;
+}
+.information-course-text{
+    max-width: 662px;
+    font-size: 24px;
+    line-height: 150%;
+}
+.information-list-image{
+    max-width: 261px;
+}
+.information-list{
+    display: flex;
+    margin-top:94px
+}
+.information-list-text{
+    display: flex;
+    gap: 80px;
+    margin: auto;
+}
+.information-list-textchild{
+    max-width: 150px;
+    font-size: 18px;
+    line-height: 130%;
+}
+.information-list-textchild h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom:12px;
+}
+
+
+/* ********************************  Media Quary   Tablet *********************************** */
+
+
+@media (max-width: 1279px) {
+    .container{
+        margin-inline: 70px;
+    }
+    .logo{
+        width: 65px;
+        height: 38px;
+        margin-bottom: 58px;
+    }
+    li{
+        padding-right: 14px;
+        font-size: 12px;
+    }
+    
+    li img{
+        width: 13px;
+        height: 13px;
+        margin-right: 3px;
+    }
+    
+    .introduction-mainpart-text p {
+        max-width: 264px;
+        font-size: 12px;
+    }
+    .introduction-mainpart-text h1{
+        max-width: 363.717px;
+        font-size: 46px;
+    }
+    .introduction-image{
+        max-width: 176.067px;
+        height: 206.183px;
+        margin-right: 43px;
+    }
+    
+    .introduction-card{
+        max-width: 280.105px;
+        min-height: 115.833px;
+        border-radius: 3px;
+        padding: 11px 15px;
+        margin-top:40px;
+    }
+    .introduction-card-name{
+        font-size: 12px;
+    }
+    .introduction-card-text{
+        font-size: 14px;
+    }
+
+    .information-course{
+        margin-top:100.41px;
+    }
+    .information-course-image{
+        max-width: 181.858px;
+    }
+    .information-course-text h2{
+        font-size: 32px;
+    }
+    .information-course-text{
+        max-width: 383.408px;
+        font-size: 14px;
+    }
+    .information-list-image{
+        max-width: 134.367px;
+    }
+    .information-list{
+        display: flex;
+        margin-top:36px
+    }
+    .information-list-text{
+        gap: 55px;
+    }
+    .information-list-textchild{
+        font-size: 11px;
+        max-width: 86.875px;
+    }
+    .information-list-textchild h3{
+        font-size: 15px;
+        margin-bottom:4px;
+    }
+  }
+/* ********************************  Media Quary   Mobile  *********************************** */
+
+
+@media (max-width: 991px) {
+    .container{
+        margin-inline: 35px;
+    }
+    .logo{
+        width: 52.189px;
+        height: 30.754px;
+        margin-bottom: 40px;
+        margin-top:22px;
+    }
+    li{
+        padding-right: 11px;
+        font-size: 10px;
+    }
+    
+    li img{
+        width: 10.251px;
+        height: 9.785px;
+    }
+    .introduction-mainpart{
+        flex-direction: column;
+    }
+    .introduction-mainpart-text p {
+        max-width: 212.403px;
+        font-size: 10px;
+    }
+    .introduction-mainpart-text h1{
+        max-width:  292.631px;
+        font-size: 37px;
+    }
+    .introduction-image{
+        max-width: 141.656px;
+        margin-left: auto;
+    }
+    
+    .introduction-card{
+        max-width: 214px;
+        min-height: 93.194px;
+        padding: 9px 13px;
+        margin-top:0px;
+        margin-inline:0;
+    }
+    .introduction-card-name{
+        font-size: 10px;
+    }
+    .introduction-card-text{
+        font-size: 11px;
+    }
+    
+    .information-course{
+        /* margin-top:100.41px; */
+        flex-direction: column;
+        align-items:start;
+    }
+    .information-course-image{
+        min-width: 180px;
+    }
+    .information-course-text h2{
+        font-size: 26px;
+    }
+    .information-course-text{
+        font-size: 12px;
+    }
+    .information-list-image{
+        display: none;
+    }
+    .information-list{
+        margin-top:45px
+    }
+    .information-list-text{
+        width: 270px;
+        flex-wrap: wrap;
+        margin-inline: 0;
+    }
+    .information-list-textchild{
+        font-size: 11px;
+        max-width: 86.875px;
+    }
+    .information-list-textchild h3{
+        font-size: 15px;
+        margin-bottom:4px;
+    }
+  }
