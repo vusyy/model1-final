@@ -11,9 +11,9 @@ body{
 h1,h2{
     font-family: Roboto Slab;
 }
-.container{
+/* .container{
     margin-inline: 100px;
-}
+} */
 img{
     width: 100%;
 }
@@ -42,9 +42,9 @@ li img{
     justify-content: space-between;
     margin-top:29px;
 }
-/* .introduction-mainpart-text{
-    width: 100%;
-} */
+.introduction-mainpart-text{
+    max-width: 628px;
+}
 .introduction-mainpart-text p {
     max-width: 414px;
     font-size: 20px;
@@ -60,8 +60,12 @@ li img{
 .introduction-image{
     max-width: 304px;
     height: 356px;
+    margin-right:128px;
 }
 
+.introduction-card-parent{
+    margin-right: 80px;
+}
 
 .introduction-card{
     max-width: 483.635px;
