@@ -30,6 +30,13 @@ ul{
 li{
     padding-right: 1.736vw /* 25px; */
 }
+li:hover{
+    position: relative;
+    bottom:10px;
+    left: 10px;
+    color: rebeccapurple;
+    font-weight: 500;
+}
 
 li img{
     width: 22px;
@@ -56,6 +63,9 @@ li img{
     font-weight: 700;
     margin-bottom: 16px;
     line-height: 101.385%;
+}
+.introduction-mainpart-text h1:hover{
+    color: rebeccapurple;
 }
 .introduction-image{
     max-width: 21.1vw;/*304px;*/
@@ -112,6 +122,9 @@ li img{
     line-height: 101.385%;
     margin-bottom: 32px;
 }
+.information-course-text h2:hover{
+    color: rebeccapurple;
+}
 .information-course-text{
     max-width: 146vw; /*662px;*/
     font-size: 24px;
@@ -139,6 +152,13 @@ li img{
     font-weight: 700;
     margin-bottom:12px;
 }
+.information-list-textchild h3:hover{
+    position: relative;
+    bottom:10px;
+    left: 10px;
+    color: rebeccapurple;
+    font-weight: 500;
+}
 
 
 /* ********************************  Media Quary   Tablet *********************************** */
@@ -156,6 +176,13 @@ li img{
     li{
         padding-right: 1.68vw;/*14px;*/
         font-size: 1.44vw;/*12px;*/
+    }
+    li:hover{
+        position: relative;
+        bottom:10px;
+        left: 10px;
+        color: rebeccapurple;
+        font-weight: 500;
     }
     
     li img{
@@ -229,7 +256,7 @@ li img{
 
 @media (max-width: 991px) {
     .container{
-        margin-inline: 2.43vw;/*35px;*/
+        margin-inline: 9.33vw;/*35px;*/
     }
     .logo{
         width: 52.189px;
@@ -238,8 +265,8 @@ li img{
         margin-top:22px;
     }
     li{
-        padding-right: 11px;
-        font-size: 10px;
+        padding-right: 2.9vw;/*11px;*/
+        font-size:10px;
     }
     
     li img{
@@ -250,15 +277,16 @@ li img{
         flex-direction: column;
     }
     .introduction-mainpart-text p {
-        max-width: 212.403px;
-        font-size: 10px;
+        max-width: 56.6vw;/*212.4px;*/
+        font-size: 2.667vw;/*10px;*/
     }
     .introduction-mainpart-text h1{
-        max-width:  292.631px;
-        font-size: 37px;
+        max-width: 78vw;/*292.63px;*/
+        font-size: 9.9vw; /*37px*/
+
     }
     .introduction-image{
-        max-width: 141.656px;
+        max-width: 37.86vw;/*142px;*/
         margin-left: auto;
     }
     
@@ -282,13 +310,13 @@ li img{
         align-items:start;
     }
     .information-course-image{
-        min-width: 180px;
+        min-width: 48vw;/*180px;*/
     }
     .information-course-text h2{
-        font-size: 26px;
+        font-size: 7vw;/*26px;*/
     }
     .information-course-text{
-        font-size: 12px;
+        font-size: 3.2vw;/*12px;*/
     }
     .information-list-image{
         display: none;
@@ -302,11 +330,11 @@ li img{
         margin-inline: 0;
     }
     .information-list-textchild{
-        font-size: 11px;
-        max-width: 86.875px;
+        font-size: 2.93vw;/*11px;*/
+        max-width: 23.2vw;/*86.9px;*/
     }
     .information-list-textchild h3{
-        font-size: 15px;
+        font-size: 4vw;/*15px;*/
         margin-bottom:4px;
     }
   }
