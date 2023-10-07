@@ -1,135 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0%;
     padding: 0%;
     max-width: 1439px;
 }
-h2{
+
+h2 {
     font-family: 'Roboto Slab', serif;
 }
 
-.format-cards{
+.format .format-cards {
     display: flex;
+    margin-bottom: 179px;
+    width: 153px;
+    margin-bottom: 210px;
 }
-.format-card{
-width: 223px;
-height: 39px;
-margin-right: 195px;
-padding-left: 121px;
+
+.format-cards .format-card {
+    height: 39px;
+    padding-bottom: 43px;
+    margin-right: 122px;
+
 }
-.format-card h3{
+
+.format-cards .format-card h3 {
     color: #1E4681;
     font-size: 25px;
     font-weight: 700;
-    line-height: 130%; 
+    line-height: 130%;
 }
-.card-text{
+
+.format-card .format-card-text {
     color: #000;
     font-size: 18px;
     font-weight: 400;
     width: 270px;
 }
 
-.card-text{
-    width: 270px;
-}
-.format h2{
+.format h2 {
     color: black;
     font-family: Roboto Slab;
     font-size: 55px;
     font-weight: 700;
-    line-height: 101.385%; 
-    padding-left: 121px;
-    padding-bottom: 89px;
+    line-height: 101.385%;
+    margin-bottom: 130px;
 }
-.sto h2{
- margin-top: 417px;
- color: #000;
- font-family: Roboto Slab;
- font-size: 55px;
- font-weight: 700;
- line-height: 101.385%; 
- padding-left: 121px;
-}
-.list ul{
- color: #000;
- font-size: 24px;
- font-weight: 400;
- line-height: 150%; 
- width: 662px;
- height: 374px;
- padding-top: 21px;
- padding-left: 138px;
- margin-top: 21px;
-}
-@media (min-width: 375px) and (max-width: 833px) {
-    .format h2  {
-   font-size: 32px;
-   padding-left: 70px;
-   padding-bottom: 51.55px;
-    }
-    .format-card h3{
-    font-size: 15px;
-    } 
-    .card-text{
-        font-size: 11px;
-    }
-    .list ul{
-        font-size: 14px;
-        padding-top: 12.16px;
-        padding-left: 80px;
 
+.sto h2 {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 101.385%;
+    margin-bottom: 71px;
+}
+
+.list ul {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 662px;
+    height: 374px;
+}
+
+@media (min-width: 375px) and (max-width: 833px) {
+    .format h2 {
+        font-size: 32px;
+        margin-bottom: 76px;
     }
-    .format-card{
-        padding-left: 70px;
-        
+
+    .format-cards .format-card h3 {
+        font-size: 15px;
     }
+
+    .format-card .format-card-text {
+        font-size: 11px;
+        width: 142px;
+    }
+
+    .list ul {
+        font-size: 14px;
+        width: 383.408px;
+        height: 216.608px;
+    }
+
+    .format-cards .format-card {
+        margin-right: 66px;
+    }
+
     .sto h2 {
         font-size: 32px;
-        padding-left: 70px;
-        margin-top: 103.55px;
+        margin-bottom: 40px;
+
     }
-  }
+
+    .format .format-cards {
+        margin-bottom: 125px;
+    }
+}
 
 
 
-  @media only screen and (max-width: 374px) {
+@media only screen and (max-width: 374px) {
     .format h2 {
         font-size: 26px;
-        padding-left: 36px;
-        padding-bottom: 16.66px;
-  }
-  .format-card h3{
-    font-size: 12px;
-    } 
-    .card-text{
+        margin-bottom: 33px;
+    }
+
+    .format-cards .format-card h3 {
+        font-size: 12px;
+        width: 99.718px;
+        height: 18.173px;
+
+    }
+
+    .format-card .format-card-text {
         font-size: 10px;
     }
-    .list ul{
-        font-size: 5px;
-    }
-    .sto h2{
-        font-size: 26px;
-        padding-left: 36px;  
-        margin-top: 73px;
-    }
-    .format-card{
-        padding-left: 35px;
-        padding-bottom: 30px;
-    }
-    .format{
-        display: flex;
-        flex-direction: column;
-    }
-    .format-cards{
-        display: flex;
-        flex-direction: column;
-    }
-   .list ul{
-    padding-top: 5px;
-    padding-left: 44px;
 
- }
-  
-  }  
+    .sto h2 {
+        font-size: 26px;
+        margin-bottom: 29px;
+    }
+
+    .format {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .format .format-cards {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+
+    .list ul {
+        font-size: 12px;
+        width: 299px;
+        height: 174px;
+    }
+    .format-cards .format-card-text {
+        width: 180px;
+    }
+}
