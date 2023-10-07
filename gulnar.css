@@ -4,7 +4,6 @@
     font-family: 'Roboto', sans-serif;
     margin: 0%;
     padding: 0%;
-    max-width: 1439px;
 }
 
 h2 {
@@ -13,36 +12,35 @@ h2 {
 
 .format .format-cards {
     display: flex;
-    margin-bottom: 179px;
-    width: 153px;
-    margin-bottom: 210px;
+    width: 12.43vw;
+    margin-bottom: 221px;
 }
 
 .format-cards .format-card {
     height: 39px;
-    padding-bottom: 43px;
     margin-right: 122px;
 
 }
 
 .format-cards .format-card h3 {
     color: #1E4681;
-    font-size: 25px;
+    font-size: 1.73vw;
     font-weight: 700;
     line-height: 130%;
+    margin-bottom: 13px;
 }
 
 .format-card .format-card-text {
     color: #000;
-    font-size: 18px;
+    font-size: 1.25vw;
     font-weight: 400;
-    width: 270px;
+    width: 18.75vw;
 }
 
 .format h2 {
     color: black;
     font-family: Roboto Slab;
-    font-size: 55px;
+    font-size: 3.7vw;
     font-weight: 700;
     line-height: 101.385%;
     margin-bottom: 130px;
@@ -51,7 +49,7 @@ h2 {
 .sto h2 {
     color: #000;
     font-family: Roboto Slab;
-    font-size: 55px;
+    font-size: 3.7vw;
     font-weight: 700;
     line-height: 101.385%;
     margin-bottom: 71px;
@@ -59,31 +57,31 @@ h2 {
 
 .list ul {
     color: #000;
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: 400;
     line-height: 150%;
-    width: 662px;
+    width: 45vw;
     height: 374px;
 }
 
 @media (min-width: 375px) and (max-width: 833px) {
     .format h2 {
-        font-size: 32px;
+        font-size: 3.6vw;
         margin-bottom: 76px;
     }
 
     .format-cards .format-card h3 {
-        font-size: 15px;
+        font-size: 1.79vw;
     }
 
     .format-card .format-card-text {
-        font-size: 11px;
-        width: 142px;
+        font-size: 1.3vw;
+        width: 17vw;
     }
 
     .list ul {
-        font-size: 14px;
-        width: 383.408px;
+        font-size: 1.67vw;
+        width: 46vw;
         height: 216.608px;
     }
 
@@ -92,7 +90,7 @@ h2 {
     }
 
     .sto h2 {
-        font-size: 32px;
+        font-size: 3.6vw;
         margin-bottom: 40px;
 
     }
@@ -106,23 +104,23 @@ h2 {
 
 @media only screen and (max-width: 374px) {
     .format h2 {
-        font-size: 26px;
+        font-size: 6.9vw;
         margin-bottom: 33px;
     }
 
     .format-cards .format-card h3 {
-        font-size: 12px;
-        width: 99.718px;
+        font-size: 3.2vw;
+        width: 26.4vw;
         height: 18.173px;
 
     }
 
     .format-card .format-card-text {
-        font-size: 10px;
+        font-size: 2.66vw;
     }
 
     .sto h2 {
-        font-size: 26px;
+        font-size: 6.9vw;
         margin-bottom: 29px;
     }
 
@@ -138,11 +136,12 @@ h2 {
     }
 
     .list ul {
-        font-size: 12px;
-        width: 299px;
+        font-size: 3.2vw;
+        width: 79.7vw;
         height: 174px;
     }
+
     .format-cards .format-card-text {
-        width: 180px;
+        width: 48vw;
     }
 }
