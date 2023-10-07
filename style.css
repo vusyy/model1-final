@@ -28,7 +28,7 @@ ul{
     display: flex;
 }
 li{
-    padding-right: 25px;
+    padding-right: 1.736vw /* 25px; */
 }
 
 li img{
@@ -43,43 +43,43 @@ li img{
     margin-top:29px;
 }
 .introduction-mainpart-text{
-    max-width: 628px;
+    max-width: 43.61vw /* 628px; */;
 }
 .introduction-mainpart-text p {
-    max-width: 414px;
-    font-size: 20px;
+    max-width: 28.75vw /*414px*/;
+    font-size: 1.38vw; /*20px;*/
     font-weight: 400;
     line-height: 150%;
 }
 .introduction-mainpart-text h1{
-    font-size: 80px;
+    font-size: 5.55vw;/* 80px; */
     font-weight: 700;
     margin-bottom: 16px;
     line-height: 101.385%;
 }
 .introduction-image{
-    max-width: 304px;
+    max-width: 21.1vw;/*304px;*/
     height: 356px;
     margin-right:128px;
 }
 
 .introduction-card-parent{
-    margin-right: 80px;
+    margin-right: 5.55vw;/*80px;*/
 }
 
 .introduction-card{
-    max-width: 483.635px;
+    max-width: 33.55vw; /*483.635px;*/
     min-height: 200px;
     border-radius: 5px;
     background: #1E4681;
-    padding: 19px 26px;
+    padding: 19px 1.8vw/*26px*/;
     margin:auto;
     margin-top:67px;
 }
 .introduction-card-name{
     color: #FFF;
     text-align: right;
-    font-size: 20px;
+    font-size: 1.38vw; /*20px;*/
     font-weight: 400;
     line-height: 130%;
     margin-top: 5px;
@@ -87,12 +87,12 @@ li img{
 .introduction-card-text{
     color: #FFF;
     font-family: Roboto Slab;
-    font-size: 25px;
+    font-size: 1.73vw; /*25px;*/
     font-weight: 400;
     line-height: 130%;
 }
 .introduction-image{
-    width: 304px;
+    width: 21vw; /*304px;*/
 }
 
 
@@ -103,39 +103,39 @@ li img{
     margin-top:173px;
 }
 .information-course-image{
-    max-width:367px ;
+    max-width:25.5vw; /*367px;*/
 }
 .information-course-text h2{
     font-family: Roboto Slab;
-    font-size: 55px;
+    font-size: 3.8vw; /*55px;*/
     font-weight: 700;
     line-height: 101.385%;
     margin-bottom: 32px;
 }
 .information-course-text{
-    max-width: 662px;
+    max-width: 146vw; /*662px;*/
     font-size: 24px;
     line-height: 150%;
 }
 .information-list-image{
-    max-width: 261px;
+    max-width: 18vw; /*261px;*/
 }
 .information-list{
     display: flex;
-    margin-top:94px
+    margin-top:94px;
 }
 .information-list-text{
     display: flex;
-    gap: 80px;
+    gap: 5.55vw;/*80px;*/
     margin: auto;
 }
 .information-list-textchild{
-    max-width: 150px;
-    font-size: 18px;
+    max-width: 10.4vw;/*150px;*/
+    font-size: 1.25vw;/*18px;*/
     line-height: 130%;
 }
 .information-list-textchild h3{
-    font-size: 25px;
+    font-size: 1.74vw;/*25px;*/
     font-weight: 700;
     margin-bottom:12px;
 }
@@ -146,7 +146,7 @@ li img{
 
 @media (max-width: 1279px) {
     .container{
-        margin-inline: 70px;
+        margin-inline: 8.4vw;/*70px;*/
     }
     .logo{
         width: 65px;
@@ -154,8 +154,8 @@ li img{
         margin-bottom: 58px;
     }
     li{
-        padding-right: 14px;
-        font-size: 12px;
+        padding-right: 1.68vw;/*14px;*/
+        font-size: 1.44vw;/*12px;*/
     }
     
     li img{
@@ -165,17 +165,17 @@ li img{
     }
     
     .introduction-mainpart-text p {
-        max-width: 264px;
-        font-size: 12px;
+        max-width: 31.65vw;/*264px;*/
+        font-size: 1.44vw;/*12px;*/
     }
     .introduction-mainpart-text h1{
-        max-width: 363.717px;
-        font-size: 46px;
+        max-width: 43.645vw;/*364px;*/
+        font-size: 5.5vw;/*46px;*/
     }
     .introduction-image{
         max-width: 176.067px;
         height: 206.183px;
-        margin-right: 43px;
+        margin-right: 5.156vw;/*43px;*/
     }
     
     .introduction-card{
@@ -186,24 +186,24 @@ li img{
         margin-top:40px;
     }
     .introduction-card-name{
-        font-size: 12px;
+        font-size: 1.44vw;/*12px;*/
     }
     .introduction-card-text{
-        font-size: 14px;
+        font-size: 1.68vw;/*14px;*/
     }
 
     .information-course{
         margin-top:100.41px;
     }
     .information-course-image{
-        max-width: 181.858px;
+        max-width: 21.82vw;/*182px;*/
     }
     .information-course-text h2{
-        font-size: 32px;
+        font-size: 3.84vw;/*32px;*/
     }
     .information-course-text{
-        max-width: 383.408px;
-        font-size: 14px;
+        max-width: 46vw;/*383.4px;*/
+        font-size:1.68vw;/*14px;*/
     }
     .information-list-image{
         max-width: 134.367px;
@@ -213,14 +213,14 @@ li img{
         margin-top:36px
     }
     .information-list-text{
-        gap: 55px;
+        gap: 6.6vw;/*55px;*/
     }
     .information-list-textchild{
-        font-size: 11px;
-        max-width: 86.875px;
+        font-size: 1.32vw;/*11px;*/
+        max-width: 10.43vw;/*87px;*/
     }
     .information-list-textchild h3{
-        font-size: 15px;
+        font-size: 1.8vw;/*15px;*/
         margin-bottom:4px;
     }
   }
@@ -229,7 +229,7 @@ li img{
 
 @media (max-width: 991px) {
     .container{
-        margin-inline: 35px;
+        margin-inline: 2.43vw;/*35px;*/
     }
     .logo{
         width: 52.189px;
