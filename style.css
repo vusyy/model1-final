@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    padding-left: 84px;
+    padding: 0;
     font-family: Roboto;
     background-color: #FFF;
 }
@@ -12,92 +12,156 @@ body {
     flex-wrap: wrap;
 }
 
-h2 {
-    margin: 0 0 2em 2.5vw;
-    padding: 10px 0 30px 2px;
-    font-size: 3.8vw;
-    font-weight: 700;
-    font-family: Roboto Slab;
-}
-
-.card {
-    margin: 0 2.57vw 2.85vw 0;
-    border-radius: 2.8vw;
-    background: #FFF;
-    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
-}
-
-.card-image {
-    width: 27.7vw;
-    height: 11.11vw;
-}
-
-.card-image img {
-    width: 100%;
-    height: 100%;
-}
-
-.card-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 9.31vw;
-    padding: 0.76vw 1.04vw 1.60vw 1.32vw;
-}
-
-.card-text .text-title {
-    margin: 0;
-    padding: 0.25em 0 0;
-    font-size: 2.08vw;
-    font-weight: 700;
-}
-
-.card-text .text-description {
-    margin: 0;
-    padding: 0 0 0.1em;
-    font-size: 1.74vw;
-    font-weight: 400;
-}
-
-
-/* @media (min-width: 992px) and (max-width: 1279px) {
-
+@media (min-width: 1280px) {
     h2 {
-        margin: 0 0 55px 21.3px;
-        padding: 5px 0 26px 1px;
-        font-size: 55px;
+        margin: 0 0 2em 2.5vw;
+        padding: 10px 0 30px 2px;
+        font-size: 3.82vw;
         font-weight: 700;
         font-family: Roboto Slab;
     }
 
     .card {
-        margin: 0 21.4px 23.75px 0;
-        border-radius: 17.375px;
+        margin: 0 2.57vw 2.85vw 0;
+        border-radius: 2.5vw;
         background: #FFF;
-        box-shadow: 0.57917px 0.57917px 8.6875px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-image {
+        width: 27.7vw;
+        height: 11.11vw;
     }
 
     .card-image img {
-        width: 231.088px;
-        height: 92.667px;
+        width: 100%;
+        height: 100%;
     }
 
     .card-text {
-        padding: 6.37px 8.11px 13.32px 11.5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 9.3vw;
+        padding: 0.75vw 1vw 1.6vw 1.3vw;
     }
 
     .card-text .text-title {
-        margin: 0 0 18.53px;
-        padding: 5px 0px 5.5px 1.5px;
-        font-size: 17px;
+        margin: 0;
+        padding: 0.25em 0 0 2px;
+        font-size: 2.08vw;
         font-weight: 700;
     }
 
     .card-text .text-description {
         margin: 0;
-        padding: 4px 0 4.5px 1.3px;
-        font-size: 14px;
+        padding: 0 0 0.1em 2px;
+        font-size: 1.74vw;
         font-weight: 400;
     }
+}
 
-} */
+
+@media (min-width: 992px) and (max-width: 1280px) {
+    h2 {
+        margin: 0 0 1.7em 0.67em;
+        padding: 5px 0 26px 1px;
+        font-size: 3.84vw;
+        font-weight: 700;
+        font-family: Roboto Slab;
+    }
+
+    .card {
+        margin: 0 2.58vw 2.8vw 0;
+        border-radius: 2.5vw;
+        background: #FFF;
+        box-shadow: 0.57917px 0.57917px 8.6875px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-image {
+        width: 27.7vw;
+        height: 11.1vw;
+    }
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 9.3vw;
+        padding: 0.75vw 1vw 1.6vw 1.3vw;
+    }
+
+    .card-text .text-title {
+        margin: 0;
+        padding: 0.2em 0 0 1.5px;
+        font-size: 2.04vw;
+        font-weight: 700;
+    }
+
+    .card-text .text-description {
+        margin: 0;
+        padding: 0 0 0.1em 1.5px;
+        font-size: 1.68vw;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 992px) {
+    h2 {
+        margin: 0 0 2.5vw 2.43vw;
+        padding: 4.5px 0 20.5px 0.5px;
+        font-size: 2.62vw;
+        font-weight: 700;
+        font-family: Roboto Slab;
+    }
+
+    .programs {
+        flex-direction: column;
+        margin: auto;
+        width: 18.74vw;
+    }
+
+    .card {
+        margin: 0 0 2.43vw;
+        border-radius: 1.4vw;
+        background: #FFF;
+        box-shadow: 0.46597px 0.46597px 6.98958px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-image {
+        width: 18.74vw;
+        height: 7.5vw;
+    }
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 6.3vw;
+        padding: 0.5vw 0.65vw 1.1vw 0.9vw;
+    }
+
+    .card-text .text-title {
+        margin: 0;
+        padding: 0.4vw 0 0 0.1vw;
+        font-size: 1.4vw;
+        font-weight: 700;
+    }
+
+    .card-text .text-description {
+        margin: 0;
+        padding: 0 0 0.15vw 0.1vw;
+        font-size: 1.2vw;
+        font-weight: 400;
+    }
+}
