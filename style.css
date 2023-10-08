@@ -113,9 +113,9 @@ body {
 
 @media (max-width: 992px) {
     h2 {
-        margin: 0 0 2.5vw 2.43vw;
+        margin: 0 0 9.48vw 9vw;
         padding: 4.5px 0 20.5px 0.5px;
-        font-size: 2.62vw;
+        font-size: 6.93vw;
         font-weight: 700;
         font-family: Roboto Slab;
     }
@@ -123,19 +123,19 @@ body {
     .programs {
         flex-direction: column;
         margin: auto;
-        width: 18.74vw;
+        width: 49.5vw;
     }
 
     .card {
-        margin: 0 0 2.43vw;
-        border-radius: 1.4vw;
+        margin: 0 0 6.4vw;
+        border-radius: 3.73vw;
         background: #FFF;
         box-shadow: 0.46597px 0.46597px 6.98958px 0px rgba(0, 0, 0, 0.25);
     }
 
     .card-image {
-        width: 18.74vw;
-        height: 7.5vw;
+        width: 49.5vw;
+        height: 19.85vw;
     }
 
     .card-image img {
@@ -147,21 +147,21 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 6.3vw;
-        padding: 0.5vw 0.65vw 1.1vw 0.9vw;
+        height: 13.87vw;
+        padding: 1.33vw 1.7vw 2.7vw 2.5vw;
     }
 
     .card-text .text-title {
         margin: 0;
-        padding: 0.4vw 0 0 0.1vw;
-        font-size: 1.4vw;
+        padding: 1.1vw 0 0 0.3vw;
+        font-size: 3.73vw;
         font-weight: 700;
     }
 
     .card-text .text-description {
         margin: 0;
-        padding: 0 0 0.15vw 0.1vw;
-        font-size: 1.2vw;
+        padding: 0 0 0.35vw 0.3vw;
+        font-size: 3.20vw;
         font-weight: 400;
     }
 }
