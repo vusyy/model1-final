@@ -1,0 +1,193 @@
+.start {
+    box-sizing: border-box;
+    background: #9DC9C8;
+    height: 54.1vw;
+    padding: 12.43vw 28.47vw 12.84vw 8.47vw;
+  }
+  
+  .name {
+    width: 63vw;
+    height: 4.58vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.82vw;
+    font-weight: 700;
+    line-height: 3.872vw;
+    margin-bottom: 3.75vw;
+  }
+  
+  .price-name {
+    width: 1.18vw;
+    height: 2.22vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.74vw;
+    font-weight: 400;
+    line-height: 1.62vw;
+    margin: 0;
+  }
+  
+  .price {
+    width: 33.4vw;
+    height: 5.63vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.56vw;
+    font-weight: 400;
+    line-height: 5.63vw;
+    margin: 0;
+    margin-bottom: 5.83vw;
+  }
+  
+  .start-info {
+    width: 46vw;
+    display: flex;
+    gap: 4.861vw;
+    margin: 0;
+  }
+  
+  #head1 {
+    width: 20.41vw;
+    height: 2.22vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.73vw;
+    font-weight: 400;
+    line-height: 1.76vw;
+    margin-top: 0;
+    margin-bottom: 0.625vw;
+  }
+  
+  #head2 {
+    width: 22.36vw;
+    height: 2.22vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.73vw;
+    font-weight: 400;
+    line-height: 1.76vw;
+    margin-top: 0;
+    margin-bottom: 0.625vw;
+  }
+  
+  #info {
+    width: 20.41vw;
+    height: 4.86vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.27vw;
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .start {
+      height: 54.17vw;
+      padding: 12.43vw 28.5vw 12.84vw 8.47vw;
+    }
+  
+    .name {
+      width: 63.055vw;
+      height: 4.584vw;
+      font-size: 3.84vw;
+      line-height: 3.89vw;
+      margin-bottom: 3.75vw;
+    }
+  
+    .price-name {
+      width: 11.81vw;
+      height: 2.22vw;
+      line-height: 1.7vw;
+      font-size: 1.68vw;
+    }
+  
+    .price {
+      width: 33.4vw;
+      height: 5.6vw;
+      font-size: 5.5vw;
+      line-height: 5.6vw;
+      margin-bottom: 5.2vw;
+    }
+  
+    .start-info {
+      width: 47.64vw;
+      height: 7.68vw;
+      display: flex;
+      gap: 4.86vw;
+      margin: 0;
+    }
+  
+  
+    #head1,
+    #head2 {
+      width: 21vw;
+      height: 2.22vw;
+      font-size: 1.68vw;
+      line-height: 1.7vw;
+    }
+  
+  
+    #info {
+      width: 20.42vw;
+      height: 4.86vw;
+      line-height: 1.22vw;
+      font-size: 1.2vw;
+      font-size: 1.2vw;
+    }
+  
+  }
+  
+  /* (min-width: 320px) and  */
+  @media (max-width: 767px) {
+    .start {
+  
+      height: 96.92vw;
+      padding: 16.5vw 8.53vw 16.92vw 9.6vw;
+  
+  
+    }
+  
+    .name {
+      height: 16.8vw;
+      width: 59.7vw;
+      font-size: 6.93vw;
+      line-height: 7.03vw;
+      margin-bottom: 5.95vw;
+    }
+  
+    .price-name {
+      width: 21.13vw;
+      height: 4vw;
+      font-size: 3.2vw;
+      line-height: 3.25vw;
+    }
+  
+    .price {
+      width: 59.768vw;
+      margin-bottom: 9.26vw;
+      line-height: 10vw;
+      height: 10vw;
+      font-size: 9.87vw;
+    }
+  
+    .start-info {
+      box-sizing: border-box;
+      gap: 8.27vw;
+  
+      width: 81.87vw;
+    }
+  
+    #head1,
+    #head2 {
+      width: 36.8vw;
+      height: 4vw;
+      font-size: 3.2vw;
+      line-height: 3.25vw;
+      margin-bottom: 1.216vw;
+    }
+  
+  
+    #info {
+      width: 36.8vw;
+      height: 12.53vw;
+      font-size: 2.67vw;
+      line-height: 2.7vw;
+    }
+  
+  }
