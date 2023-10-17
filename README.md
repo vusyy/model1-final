@@ -1,3 +1,5 @@
 # model1-final
 
-[Click HERE for HTML](https://vusyy.github.io/rsschool-cv/)
+[Click HERE](https://vusyy.github.io/model1-final/)
+
+
