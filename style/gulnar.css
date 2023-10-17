@@ -1,0 +1,159 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.gulnar {
+    margin-bottom: 16.39vw;
+    margin-left: 8.33vw;
+}
+
+section h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.format .format-cards {
+    display: flex;
+    width: 12.43vw;
+    margin-bottom: 221px;
+}
+
+.format-cards .format-card {
+    margin-right: 122px;
+}
+
+.format-cards .format-card h3 {
+    color: #1E4681;
+    font-size: 1.73vw;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 13px;
+}
+
+.format-card .format-card-text {
+    color: #000;
+    font-size: 1.25vw;
+    font-weight: 400;
+    width: 18.75vw;
+}
+
+.format h2 {
+    color: black;
+    font-family: Roboto Slab;
+    font-size: 3.7vw;
+    font-weight: 700;
+    line-height: 101.385%;
+    margin-bottom: 130px;
+}
+
+.sto h2 {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 3.7vw;
+    font-weight: 700;
+    line-height: 101.385%;
+    margin-bottom: 71px;
+}
+
+.list ul {
+    color: #000;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 150%;
+    width: 45vw;
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+
+    .gulnar {
+        margin-bottom: 16.19vw;
+        margin-left: 8.39vw;
+    }
+
+    .format h2 {
+        font-size: 3.6vw;
+        margin-bottom: 76px;
+    }
+
+    .format-cards .format-card h3 {
+        font-size: 1.79vw;
+    }
+
+    .format-card .format-card-text {
+        font-size: 1.3vw;
+        width: 17vw;
+    }
+
+    .list ul {
+        font-size: 1.67vw;
+        width: 46vw;
+    }
+
+    .format-cards .format-card {
+        margin-right: 66px;
+    }
+
+    .sto h2 {
+        font-size: 3.6vw;
+        margin-bottom: 40px;
+
+    }
+
+    .format .format-cards {
+        margin-bottom: 125px;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+
+    .gulnar {
+        margin-bottom: 17.60vw;
+        margin-left: 9.60vw;
+    }
+
+    .format h2 {
+        font-size: 6.9vw;
+        margin-bottom: 33px;
+    }
+
+    .format-card {
+        margin-bottom: 10.64vw;
+    }
+
+    .format-cards .format-card h3 {
+        font-size: 3.2vw;
+        width: 26.4vw;
+    }
+
+    .format-card .format-card-text {
+        font-size: 2.66vw;
+        width: 47.87vw;
+    }
+
+    .sto h2 {
+        font-size: 6.9vw;
+        margin-bottom: 29px;
+    }
+
+    .format {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .format .format-cards {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+
+    .list ul {
+        font-size: 3.2vw;
+        width: 79.7vw;
+    }
+
+    .format-cards .format-card-text {
+        width: 48vw;
+    }
+}

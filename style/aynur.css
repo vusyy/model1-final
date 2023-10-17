@@ -1,0 +1,186 @@
+.section {
+    background-color: #EFEFEF;
+    padding-bottom: 7.639vw;
+    padding-top: 6.944vw;
+
+}
+
+.section .container {
+    margin-inline: 8vw;
+
+
+}
+
+img{
+    width: 100%;
+
+}
+
+
+.card0 {
+    box-sizing: border-box;
+    width: 54.931vw;
+    /* height: 451px; */
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 2.778vw 3.194vw 2.778vw 3.125vw; 
+}
+
+.text {
+    font-size: 1.389vw;
+    margin-bottom: 3.125vw;
+}
+
+/* .card2-2 {
+
+    width: 25vw;
+
+} */
+
+.card2 {
+    display: flex;
+    margin-top: 3.125vw;
+}
+.card2-1 {
+
+    width: 13vw;
+
+}
+
+
+
+.card2-2 {
+    padding-top: 2.778vw;
+    padding-left: 2.083vw;
+}
+
+.card2-2-1 {
+
+
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; 
+} 
+.fb{
+
+
+    width: 2.2vw;
+    margin-top: 2.222vw;
+
+}
+.title {
+
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; 
+    margin-bottom: 5.347vw;
+    
+}
+
+.card p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+}
+@media (max-width: 834px) and (min-width: 374px) {
+
+   
+
+    .card0 {
+        width: 55vw;
+        
+        border-radius: 17.375px;
+        background-color: #fff;
+        box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
+    }
+    .card p{
+        font-size: 1.4vw;
+        margin-bottom: 2.778vw;
+
+    }
+   
+    .card1 {
+        margin-bottom: 2.778vw;
+        
+    }
+
+    .card2-2-1 {
+
+
+        font-size: 2vw;
+
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+
+    }
+
+    .card2-1{
+        width: 13vw;
+
+        
+    }
+
+    .fb {
+        width: 2.1vw;
+        height: 17.954px;
+
+
+    }
+}  
+    @media (min-width: 320px) and (max-width: 767px) {
+       
+        .section .container{
+            margin-inline: 5.3vw;
+        }
+
+        .card0 {
+            width: 81.915vw;
+            border-radius: 3.728vw;
+            padding: 4.92vw 5.6vw 3.47vw 5.6vw;
+        }
+        .title { 
+            font-size: 6.915vw;
+            width: 62.5vw;
+            margin-bottom: 2.713vw;
+        }
+
+        .text  {
+            font-size: 2.66vw;
+        }
+
+        .card p {
+            font-size: 2.66vw;
+            line-height: 4vw; 
+        }
+
+
+        .card2-1 {
+            width: 21.33vw;
+            height: 22.4vw;
+            /* padding-left: 5.3vw; */
+
+        }
+
+        .card2-2-1 {
+            font-size: 2.99vw;
+            margin-bottom: 3vw;
+        }
+
+        .fb {
+            width: 3.966vw;
+            height: 4.574vw;
+        }
+
+    }

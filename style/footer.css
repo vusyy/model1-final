@@ -1,0 +1,223 @@
+.block {
+    background-color: black;
+    padding: 3.472vw 12.014vw 3.056vw 8.472vw;
+  }
+  
+ .block .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .photo1 {
+    width: 7.986vw;
+    height: 4.72vw;
+    margin-bottom: 2.083vw;
+  }
+  
+  #logo_mobile {
+    width: 100%;
+  }
+  
+  
+  .row {
+    display: flex;
+    margin-bottom: 10.139vw;
+  }
+  
+  
+  
+  #inst {
+    width: 2.29vw;
+    height: 2.29vw;
+    margin-right: 1.25vw;
+  }
+  
+  #fb {
+    width: 2.29vw;
+    height: 2.29vw;
+    margin-right: 1.458vw; 
+  }
+  
+  #vk {
+    width: 2.43vw;
+    height: 2.43vw;
+    margin-right: 1.736vw; 
+  }
+  
+  #vp {
+    width: 2.36vw;
+    height: 2.36vw;
+  }
+  
+  .text-1 {
+    width: 14.167vw;
+  }
+  
+  .synchronize {
+    width: 100%;
+      color: white;
+      font-family: Roboto;
+      font-size: 1.25vw;
+    font-weight: 400;
+  }
+  
+  .column {
+    display: flex;
+  }
+  
+  .column2 {
+    display: flex;
+  }
+  
+  
+  #phone_icon {
+    width: 1.875vw;
+    width: 1.875vw;
+    margin-bottom: 1.736vw;
+    margin-right: 1.528vw;
+  }
+  
+  #message_icon {
+    width: 1.875vw;
+    height: 1.25vw;
+    margin-right: 1.528vw;
+  }
+  
+  .text-2 {
+    font-family: Roboto;
+    width: 15.833vw;
+    color: white;
+    font-size: 1.73vw;
+    font-weight: 400;
+  }
+  
+  .text-3 {
+    font-family: Roboto;
+    font-size: 1.73vw;
+    font-weight: 400;
+    width: 16.806vw;
+    color: white;
+  }
+  
+  
+  
+  
+  @media  (min-width: 768px) and (max-width: 1024px) {
+  
+    .text-1 {
+      width: 13.429vw;
+    }
+    
+    .synchronize{
+      width: 100%;
+      font-size: 1.2vw;
+    }
+  
+    .row {
+      margin-bottom: 10.152vw;
+    }
+  
+    #inst,
+    #fb,
+    #vp,
+    #vk {
+      width: 2.39vw;
+      height: 2.39vw;
+      margin-right: 1.251vw;
+    }
+  
+    .photo1 {
+      width: 7.98vw;
+      height: 4.71vw;
+    }
+  
+    #logo_mobile {
+      width: 100%;
+      margin-bottom: 2.084vw;
+    }
+  
+    #phone_icon {
+      width: 1.87vw;
+      height: 1.87vw;
+    }
+  
+    #message_icon {
+      width: 1.87vw;
+      height: 1.2vw;
+    }
+  
+    .text-2 {
+      width: 14.508vw;
+      font-size: 1.67vw;
+    }
+  
+    .text-3 {
+      width: 16.307vw;
+      font-size: 1.67vw;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    
+    .block .container {
+      flex-direction: column;
+    }
+  
+    .text-1 {
+      width: 32.667vw;
+    }
+  
+    .synchronize{
+      width: 100%;
+      font-size: 2.933vw;
+    }
+  
+    .row {
+      margin-bottom: 12.709vw;
+    }
+  
+    .photo1 {
+      width: 14.29vw;
+      height: 8.45vw;
+    }
+  
+    #logo_mobile {
+      margin-bottom: 3.728vw;
+    }
+  
+    #inst,
+    #fb,
+    #vp,
+    #vk {
+      width: 4.26vw;
+      height: 4.26vw;
+      margin-right: 2.23vw;
+    }
+  
+    #phone_icon {
+      width: 3.35vw;
+      height: 3.35vw;
+    }
+  
+    #message_icon {
+      width: 3.35vw;
+      height: 2.23vw;
+    }
+  
+    .text-2 {
+      width: 28.58vw;
+      font-size: 3.2vw;
+    }
+  
+    .text-3 {
+      width: 33.42vw;
+      font-size: 3.2vw;
+    }
+  
+    .right-side {
+      margin-bottom: 13.067vw;
+      width: 40vw;
+    }
+  
+  }
